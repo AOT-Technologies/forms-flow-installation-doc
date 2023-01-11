@@ -3,7 +3,7 @@ layout: default
 title: Quick Installation
 nav_order: 1
 parent : Docker based installation
-has_children: true
+# has_children: true
 
 ---
 

@@ -22,9 +22,9 @@ Following steps are required to complete the installation and setup of formsflow
 2. forms-flow-analytics setup
 3. forms-flow-forms ,forms-flow-web, forms-flow-bpm, forms-flow-api setup  
 
-> ####  Notice
+
 > *Make sure you have a Docker machine up and running*.  
-{: .bg-grey-lt-000}
+{: .bg-grey-lt-000 .p-2}
 
 
 ###  Keycloak Setup.
