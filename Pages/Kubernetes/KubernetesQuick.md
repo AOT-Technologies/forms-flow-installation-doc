@@ -50,8 +50,8 @@ __Install Script__
 
  ---
 
- [Prev](/just-the-docs/Pages/Kubernetes/Overview.html){: .btn .float-left }
- [Next](/just-the-docs/Pages/Kubernetes/KubernetesIndividual.html){: .btn .float-right }
+ [Prev](/Pages/Kubernetes/Overview.html){: .btn .float-left }
+ [Next](/Pages/Kubernetes/KubernetesIndividual.html){: .btn .float-right }
 
 *Copyright© [formsflow.ai](https://formsflow.ai/)*   
 {: .text-center .mt-8 .pt-8}

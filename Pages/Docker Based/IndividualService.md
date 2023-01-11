@@ -28,7 +28,7 @@ Installation is successfully completed now.
 -------
 
 
- [Prev](/just-the-docs/Pages/Docker%20Based/DockerFull.html){: .btn .float-left }  
+ [Prev](/Pages/Docker%20Based/DockerFull.html){: .btn .float-left }  
 
   
     

@@ -66,8 +66,8 @@ To get the redash API key click <a href="/just-the-docs/Pages/Docker%20Based/Set
 
 --- 
 
- [Prev](/just-the-docs/Pages/Docker%20Based/QuickInstallation.html){: .btn .float-left }
- [Next](/just-the-docs/Pages/Docker%20Based/IndividualService.html){: .btn .float-right }  
+ [Prev](/Pages/Docker%20Based/QuickInstallation.html){: .btn .float-left }
+ [Next](/Pages/Docker%20Based/IndividualService.html){: .btn .float-right }  
   
   
   *Copyright© [formsflow.ai](https://formsflow.ai/)*   
