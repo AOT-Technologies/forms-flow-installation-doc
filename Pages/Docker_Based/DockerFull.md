@@ -43,7 +43,7 @@ Redash is used to build analytics dashboards. The analytics server can be starte
 ###  forms-flow-forms, forms-flow-web, forms-flow-bpm, forms-flow-api & forms-flow-documents Setup. 
  
  To setup forms-flow-forms, forms-flow-web, forms-flow-bpm & forms-flow-api follow the below instructions .  
-  - Make sure your current working directory `is /forms-flow-ai/deployment/docker` .  
+  - Make sure your current working directory is `/forms-flow-ai/deployment/docker` .  
   - Modify the environment variables inside the .env file if needed. Environment variables are given below.  
 
 NOTE :{your-ip-address} given inside the .env file should be changed to your host system IP address. Please take special care to identify the correct IP address if your system has multiple network cards.
@@ -77,13 +77,15 @@ To get the redash API key click <a href="/forms-flow-installation-doc/Pages/Dock
 ![analytics var](../../assets/DockerFull/dockerrunning.png)
 {: .ml-5}
 
-#### To stop the application
+ 
+### To stop the application
+ 
 - Run `docker-compose stop` to stop.
 
 ### Health Check
 - Analytics should be up and available for use at port defaulted to 7000 i.e. [http://localhost:7000/](http://localhost:7000/).
 - Business Process Engine should be up and available for use at port defaulted to 8000 i.e. [http://localhost:8000/camunda/](http://localhost:7000/).
-- FormIO should be up and available for use at port defaulted to 3001 i.e. [http://localhost:3001/](http://localhost:7000/).
+- FormIO should be up and available for use at port defaulted to 3001 i.e. [ http://localhost:3001/checkpoint]( http://localhost:3001/checkpoint).
 - formsflow.ai Rest API should be up and available for use at port defaulted to 5000 i.e. [http://localhost:5000/checkpoint](http://localhost:5000/checkpoint).
 - formsflow.ai web application should be up and available for use at port defaulted to 3000 i.e. [http://localhost:3000/](http://localhost:3000/).
 - formsflow.ai documents API for use at port defaulted to 5006 i.e. [http://localhost:5006/checkpoint](http://localhost:5006/).
