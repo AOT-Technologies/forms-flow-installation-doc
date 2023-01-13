@@ -38,7 +38,7 @@ This setup is preferred for local development only. A docker instance will be cr
  {: .bg-grey-lt-000}  
 
 
-### To stop the keycloak server  
+#### To stop the keycloak server  
 
 - Run `docker-compose stop `to stop.  
 
