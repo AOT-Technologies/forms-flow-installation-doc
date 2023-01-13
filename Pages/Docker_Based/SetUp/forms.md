@@ -17,7 +17,7 @@ To know more about form.io, go to [https://form.io](https://form.io/).
 
 - For docker based installation [Docker](https://www.docker.com/) need to be installed.  
 
-###+ Installation  
+### Installation  
 
 - Make sure you have a Docker machine up and running.
 - Make sure your current working directory is "forms-flow-ai/forms-flow-forms".

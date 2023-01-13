@@ -15,7 +15,9 @@ The quick-installation option saves time and labour, and is less error prone tha
 
 ### Prerequisites
 
-- For installation of formsflow.ai, the Docker Desktop needs to be installed (for both Windows/Linux). If Docker has been installed, and if any previous formsflow.ai installations were done already, those need to be removed from the Docker Desktop.
+1. For installation of formsflow.ai, the [Docker Desktop](https://www.docker.com/) needs to be installed (for both Windows/Linux). If Docker has been installed, and if any previous formsflow.ai installations were done already, those need to be removed from the Docker Desktop.  
+
+2. This installation is supported only by Node.js versions 14 and below (older versions of Node.js are listed [here](https://nodejs.org/en/download/releases/)).
 
 
 ## Steps for formsflow.ai Installation  
@@ -93,7 +95,7 @@ The quick-installation option saves time and labour, and is less error prone tha
 - Analytics should be up and available for use at port defaulted to 7000 i.e. [http://localhost:7000/](http://localhost:7000/).
 - Business Process Engine should be up and available for use at port defaulted to 8000 i.e. [http://localhost:8000/camunda/](http://localhost:8000/camunda/).
 
-- FormIO should be up and available for use at port defaulted to 3001 i.e. [http://localhost:3001/](http://localhost:3001/).
+- FormIO should be up and available for use at port defaulted to 3001 i.e. [ http://localhost:3001/checkpoint]( http://localhost:3001/checkpoint).
 - formsflow.ai REST API should be up and available for use at port defaulted to 5000 i.e. [http://localhost:5000/checkpoint](http://localhost:5000/checkpoint).
 - formsflow.ai web application should be up and available for use at port defaulted to 3000 i.e. [http://localhost:3000/](http://localhost:3000/). 
 - Default user credentials are provided  <a href="/forms-flow-installation-doc/Pages/Download_and_install/Download.html#formsflow-ai-user-credentials">here</a>.
