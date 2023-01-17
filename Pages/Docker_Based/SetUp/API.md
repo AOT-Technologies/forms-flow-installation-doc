@@ -8,7 +8,15 @@ grand_parent: Docker based installation
 
 
 ## Formsflow.ai API  
+{: .no_toc }
 
+## Table of contents
+{: .no_toc .text-delta }
+
+1. TOC
+{:toc}
+
+---
 **Formsflow.ai** has built this adaptive tier for correlating form management, BPM and analytics together.
 
 The goal of the REST API is to provide access to all relevant interfaces of the system. It is built using Python .
@@ -46,7 +54,9 @@ It's recommended to download dev-packages to follow Python coding standards for 
 - `cd {Your Directory}/forms-flow-ai/forms-flow-api`
 - Run `docker-compose up -d` to start.  
 
->   *NOTE: Use --build command with the start command to reflect any future .env changes eg : docker-compose up --build -d*  
+>   *NOTE: Use `--build` command with the start command to reflect any future .env changes  
+>eg : `docker-compose up --build -d`*
+{: .bg-grey-lt-000}  
 
 ### To Stop the Application
 

@@ -67,8 +67,9 @@ The KEYCLOAK_BPM_CLIENT_SECRET provided is the default value and each time you i
 - `cd {Your Directory}/forms-flow-ai/forms-flow-bpm`
 - Run `docker-compose up -d` to start.  
 
-> NOTE : Use --build command with the start command to reflect any future .env changes eg : docker-compose up --build -d
-{: .bg-grey-lt-000 .mt-8 .p-3}  
+> NOTE : Use `--build` command with the start command to reflect any future .env changes  
+>eg : `docker-compose up --build -d`
+{: .bg-grey-lt-000}   
 
 ### To stop the application
 - Run `docker-compose stop` to stop.  

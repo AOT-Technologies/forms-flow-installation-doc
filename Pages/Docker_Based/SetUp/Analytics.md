@@ -6,7 +6,13 @@ parent: Individual Service Deployment
 grand_parent: Docker based installation
 ---
 ## Analytics Engine  
+{: .no_toc }
 
+## Table of contents
+{: .no_toc .text-delta }
+
+1. TOC
+{:toc}
 ----
 
 *Formsflow.ai* leverages [Redash](https://github.com/getredash/redash) to build interactive dashboards and gain insights. To create meaningful visualization for your use case with formsflow.ai checkout [Redash Knowledge base](https://redash.io/help/).  
@@ -47,7 +53,8 @@ The forked version of redash is being used to overcome the limited cors support 
 ![analytics](../../../assets/setup/analytics3.png)
 {: .ml-5}  
 
-> NOTE: Use --build command with the start command to reflect any future .env changes eg : `docker-compose up --build -d
+> NOTE: Use `--build` command with the start command to reflect any future .env changes  
+> eg : `docker-compose up --build -d`
  {: .bg-grey-lt-000}  
 
 ### To stop the application
