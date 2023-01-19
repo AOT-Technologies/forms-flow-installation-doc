@@ -8,7 +8,9 @@ url: https://aot-technologies.github.io/forms-flow-installation-doc
 logo: "./assets/logo.svg"
 
 # Set a path/url to a favicon that will be displayed by the browser
-favicon_ico: "./assets/logo.svg"
+favicon_ico: "./assets/logo.svg"  
+
+search_enabled: true
 
 
 # Aux links for the upper right navigation

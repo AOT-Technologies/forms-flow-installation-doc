@@ -8,6 +8,13 @@ grand_parent: Docker based installation
 
 
 ## formsflow.ai EXPORT API
+{: .no_toc }
+
+## Table of contents
+{: .no_toc .text-delta }
+
+1. TOC
+{:toc}
 --- 
 
 The goal of the document API is to provide generate pdf with form submission data. It is built using Python.
@@ -48,7 +55,9 @@ No specific client creation is required. Audience has been added for clients **f
 
 - Run `docker-compose up -d` to start.
 
->*NOTE: Use --build command with the start command to reflect any future .env changes eg : docker-compose up --build -d*
+>*NOTE: Use `--build` command with the start command to reflect any future .env changes  
+>eg : `docker-compose up --build -d`*
+{: .bg-grey-lt-000}   
 
 ### To Stop the Application
 - Run `docker-compose stop` to stop.  

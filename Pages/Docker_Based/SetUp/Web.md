@@ -7,6 +7,13 @@ grand_parent: Docker based installation
 ---
 
 ## formsflow.ai Web Application
+{: .no_toc }
+
+## Table of contents
+{: .no_toc .text-delta }
+
+1. TOC
+{:toc}
 
 ---
 
@@ -40,8 +47,10 @@ Also **formsflow.ai** provides a Vue.js based web user interface for easy integr
 - forms-flow-web service uses port 5000, make sure the port is available.
 - `cd {Your Directory}/forms-flow-ai/forms-flow-web`
 - Run `docker-compose up -d` to start.  
-
-> *NOTE: Use --build command with the start command to reflect any future .env changes eg : `docker-compose up --build -d`*
+ 
+> *NOTE: Use `--build` command with the start command to reflect any future .env changes  
+>eg : `docker-compose up --build -d`*
+{: .bg-grey-lt-000}  
 
 ### To stop the application
 - Run `docker-compose stop` to stop.  
