@@ -6,7 +6,14 @@ parent: Individual Service Deployment
 grand_parent: Docker based installation
 ---
 
-## Form Management Platform 
+## Form Management Platform
+{: .no_toc }
+
+## Table of contents
+{: .no_toc .text-delta }
+
+1. TOC
+{:toc}
 
 ---
 *Formsflow.ai* leverages form.io to build "serverless" data management applications using a simple drag-and-drop form builder interface.
@@ -17,9 +24,7 @@ To know more about form.io, go to [https://form.io](https://form.io/).
 
 - For docker based installation [Docker](https://www.docker.com/) need to be installed.  
 
-
 ### Installation  
-
 
 - Make sure you have a Docker machine up and running.
 - Make sure your current working directory is "forms-flow-ai/forms-flow-forms".
@@ -42,13 +47,14 @@ To know more about form.io, go to [https://form.io](https://form.io/).
 - forms-flow-forms service uses port 3001, make sure the port is available.
 - `cd {Your Directory}/forms-flow-ai/forms-flow-forms`
 
-- Run `docker-compose up -d to start`  
+- Run `docker-compose up -d` to start  
 
 ![forms-flow-forms](../../../assets/setup/forms2.png)
 {: .ml-5}    
  
-> *NOTE: Use --build command with the start command to reflect any future **.env** changes eg : `docker-compose up --build -d`*
-{: .bg-grey-lt-000 .mt-8 .p-3}  
+> *NOTE: Use --build command with the start command to reflect any future **.env** changes  
+>eg : `docker-compose up --build -d`*
+{: .bg-grey-lt-000}  
 
 
 ### To stop the application

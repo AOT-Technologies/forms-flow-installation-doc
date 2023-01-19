@@ -6,7 +6,13 @@ parent: Individual Service Deployment
 grand_parent: Docker based installation
 ---
 ## Keycloak setup 
+{: .no_toc }
 
+## Table of contents
+{: .no_toc .text-delta }
+
+1. TOC
+{:toc}
 --- 
 
 This setup is preferred for local development only. A docker instance will be created as part of setup.  
@@ -33,35 +39,40 @@ This setup is preferred for local development only. A docker instance will be cr
  ![keycloak 2](../../../assets/setup/keycloak2.png)
  {: .ml-5}  
 
- >  Use --build command with the start command to reflect any future changes  
+ >  Use `--build `command with the start command to reflect any future changes  
  > `eg : docker-compose up --build -d`
- {: .bg-grey-lt-000}  
+ {: .bg-grey-lt-000}   
 
 
-#### To stop the keycloak server  
+### To stop the keycloak server  
 
 - Run `docker-compose stop `to stop.  
 
  ![keycloak 3](../../../assets/setup/keycloak3.png)
  {: .ml-5}    
 
-### Health Check    
-\
- The application should be up and available for use in [http://localhost:8080](http://localhost:8080/)   
-\
-  ![keycloak 4](../../../assets/setup/keycloak4.png)
-  {: .ml-5}    
+### How to add custom theme  
 
+- Log in to [http://localhost:8080](http://localhost:8080/)
+- Select Realm settings>Themes>Login Theme>formsflow>Save.
+- Run `docker-compose up --build -d` to verify the changes.  
+
+### Health Check    
+
+\
+ The application should be up and available for use in [http://localhost:8080](http://localhost:8080/)  
+
+ 
       Login Credentials
       -----------------
       User Name : admin
       Password  : changeme
 
-### How to add custom theme  
+ 
+\
+  ![keycloak 4](../../../assets/setup/keycloak4.png)
+  {: .ml-5}    
 
-- Log in to [http://localhost:8080](http://localhost:8080/)
-- Select Realm settings>Themes>Login Theme>formsflow>Save.
-- Run `docker-compose up --build -d` to verify the changes.
 
 ---
   *Copyright© [formsflow.ai](https://formsflow.ai/)*   
