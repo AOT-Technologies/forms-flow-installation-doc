@@ -77,7 +77,11 @@ To get the redash API key click <a href="/forms-flow-installation-doc/Pages/Dock
 ![analytics var](../../assets/DockerFull/dockerrunning.png)
 {: .ml-5}
 
+
 ### To stop the application
+
+
+ 
 - Run `docker-compose stop` to stop.
 
 ### Health Check
