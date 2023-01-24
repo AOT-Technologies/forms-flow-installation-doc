@@ -2,6 +2,7 @@
 layout: default
 title: Server Deployment
 nav_order: 5
+nav_exclude: true
 
 ---
 

@@ -1,15 +1,21 @@
 @media (min-width: 66.5rem)
 {
-//     .side-bar {
-//     width: auto;
-//     min-width:
-//         264px;
-    
-// }
-// .main {
-//     margin-left: calc((100% - 1437px) / 2 + 264px);
-// }
 .site-footer{
     display: none;
 }
+}
+.btn-linux,.btn-mac, .btn-server,.btn-cloud,.btn-aws {
+    margin-left: 20px;
+}
+.main {
+    max-width: 900px;
+}
+.site-nav {
+    margin-left: 0px;
+}
+.btn:hover {
+    background-color: #91afc2
+}
+.pc-btns{
+    margin-top: 20px;
 }

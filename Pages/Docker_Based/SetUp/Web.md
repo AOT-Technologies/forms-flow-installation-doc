@@ -58,7 +58,7 @@ Also **formsflow.ai** provides a Vue.js based web user interface for easy integr
 
 ## Health Check
 - The application should be up and available for use at port defaulted to 3000 in [http://localhost:3000/](http://localhost:3000/).
-- Default user credentials are provided <a href="https://aot-technologies.github.io/forms-flow-ai-doc/default%20user%20credential.html"  target="_blank" > here</a> .  
+- Default user credentials are provided <a href="/Pages/user_credentials.html"  target="_blank" > here</a> .  
 
 
   --- 
