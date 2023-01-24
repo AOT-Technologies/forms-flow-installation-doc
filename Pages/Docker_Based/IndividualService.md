@@ -2,9 +2,9 @@
 layout: default
 title: Individual Service Deployment
 nav_order: 3
-parent : Docker based installation
 has_children: true
 has_toc: false
+nav_exclude: true
 ---
 
 ## Individual Service Deployment
@@ -30,12 +30,5 @@ Installation is successfully completed now.
 
 -------
 
-
-
- [Prev](/forms-flow-installation-doc/Pages/Docker_Based/DockerFull.html){: .btn .float-left }  
-
-
-  
-    
   *Copyright© [formsflow.ai](https://formsflow.ai/)*   
   {: .text-center .mt-8 .pt-8}

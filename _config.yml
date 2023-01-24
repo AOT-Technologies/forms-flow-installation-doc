@@ -14,9 +14,9 @@ search_enabled: true
 
 
 # Aux links for the upper right navigation
-# aux_links:
-#   "Docker":
-#     - "https://github.com/AOT-Technologies/forms-flow-installation-doc"
+aux_links:
+  "Docker":
+    - "https://github.com/AOT-Technologies/forms-flow-installation-doc"
 
 
 

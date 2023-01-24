@@ -2,6 +2,7 @@
 layout: default
 title: AWS EKS Installation 
 nav_order: 6
+nav_exclude: true
 ---
 
 ## AWS EKS Installation Steps 

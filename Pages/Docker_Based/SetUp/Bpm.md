@@ -80,7 +80,7 @@ The KEYCLOAK_BPM_CLIENT_SECRET provided is the default value and each time you i
 ![bpm](../../../assets//setup/bpm6.png)
 {: .ml-5}    
 
-Default user credentials are provided <a href="/forms-flow-installation-doc/Pages/Download_and_install/Download.html#formsflow-ai-user-credentials"  target="_blank" > here</a>.  
+Default user credentials are provided <a href="/Pages/user_credentials.html"  target="_blank" > here</a>.  
 
 
   --- 
