@@ -2,8 +2,7 @@
 layout: default
 title: forms-flow-forms 
 nav_order: 2
-parent: Individual Service Deployment
-grand_parent: Docker based installation
+nav_exclude: true
 ---
 
 ## Form Management Platform

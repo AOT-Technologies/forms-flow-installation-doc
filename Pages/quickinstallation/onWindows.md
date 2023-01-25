@@ -5,9 +5,10 @@ nav_order: 1
 nav_exclude: true
 ---
 
-## Windows install
+## Windows Installation
+<br>
+**Choose any one installation method**: 
 
-#### Table of contents
 1. <a href="/forms-flow-installation-doc/Pages/quickinstallation/onWindows.html#quick-installation" >Quick installation</a> 
 2. More Installation Methods 
   - <a href="/forms-flow-installation-doc/Pages/Docker_Based/DockerFull.html" >Docker Full deployment</a>
@@ -19,7 +20,6 @@ nav_exclude: true
 ### System requirements
  
 - 64-bit with at least 16GB RAM and 25GB HDD  
-- This installation is supported only by Node.js versions 14 and below 
 
 ## Quick installation 
 
@@ -30,17 +30,16 @@ The quick-installation option saves time and labour, and is less error prone tha
 
 ### Prerequisites
 
-1. For installation of formsflow.ai, the [Docker Desktop](https://www.docker.com/) needs to be installed . If Docker has been installed, and if any previous formsflow.ai installations were done already, those need to be removed from the Docker Desktop.  
+- For installation of formsflow.ai, the [Docker Desktop](https://www.docker.com/) needs to be installed . If Docker has been installed, and if any previous formsflow.ai installations were done already, those need to be removed from the Docker Desktop.  
 
 
-2. This installation is supported only by Node.js versions 14 and below (older versions of Node.js are listed [here](https://nodejs.org/en/download/releases/)).  
 
 ## Steps for formsflow.ai Installation  
 
 1.Download the following installation bundle to perform Quick Installation
   
-<span class="fs-8">
-[Formsflow.ai_windows-zip](https://github.com/AOT-Technologies/forms-flow-ai-deployment/archive/refs/heads/main.zip){: .btn .btn-green .mr-4}
+<span class="fs-5">
+[Formsflow.ai_windows-zip](https://github.com/AOT-Technologies/forms-flow-ai-deployment/archive/refs/heads/main.zip){: .btn .btn-purple .mr-4}
 </span>   
 
 2.Extract the contents of the downloaded zip file in the desired location   
