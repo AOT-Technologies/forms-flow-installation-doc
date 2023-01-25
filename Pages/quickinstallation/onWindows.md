@@ -8,10 +8,10 @@ nav_exclude: true
 ## Windows install
 
 #### Table of contents
-1. <a href="/Pages/quickinstallation/onWindows.html#quick-installation" >Quick installation</a> 
+1. <a href="/forms-flow-installation-doc/Pages/quickinstallation/onWindows.html#quick-installation" >Quick installation</a> 
 2. More Installation Methods 
-  - <a href="/Pages/Docker_Based/DockerFull.html" >Docker Full deployment</a>
-  - <a href="/Pages/Docker_Based/IndividualService.html">Individual service deployment</a>
+  - <a href="/forms-flow-installation-doc/Pages/Docker_Based/DockerFull.html" >Docker Full deployment</a>
+  - <a href="/forms-flow-installation-doc/Pages/Docker_Based/IndividualService.html">Individual service deployment</a>
 
 
 ---
@@ -100,7 +100,7 @@ The quick-installation option saves time and labour, and is less error prone tha
 - FormIO should be up and available for use at port defaulted to 3001 i.e. [ http://localhost:3001/checkpoint]( http://localhost:3001/checkpoint).
 - formsflow.ai REST API should be up and available for use at port defaulted to 5000 i.e. [http://localhost:5000/checkpoint](http://localhost:5000/checkpoint).
 - formsflow.ai web application should be up and available for use at port defaulted to 3000 i.e. [http://localhost:3000/](http://localhost:3000/). 
-- Default user credentials are provided  <a href="/Pages/user_credentials.html" target="_blank">here</a>.
+- Default user credentials are provided  <a href="/forms-flow-installation-doc/Pages/user_credentials.html" target="_blank">here</a>.
 
 
 
