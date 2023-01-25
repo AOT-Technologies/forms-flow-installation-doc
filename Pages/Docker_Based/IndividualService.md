@@ -11,6 +11,14 @@ nav_exclude: true
 {: .mb-5}   
    
 
+### Download formflow.ai   
+
+Download the following installation bundle to perform Docker full deployment.  
+
+<span class="fs-5">
+[Formsflow.ai-zip](https://github.com/AOT-Technologies/forms-flow-ai/archive/refs/heads/master.zip){: .btn .btn-purple .mr-4}
+</span>
+
 The components can be installed individually in the order below .   
 \
 **Note** : Keycloak, form.io and analytics(optional) should be installed before bpm,api & web.

@@ -10,14 +10,6 @@ nav_exclude: true
 ---
 
 
-There are three types of docker based installation .Quick Installation,Full deployment and Individual Deployment .  
-
-Quick Installation is the most basic and simplest type of formsflow Installation. Running a single script file installs formsflow and all its dependencies.Formsflow installed through Quick installation method is used to test the basic features of formsflow.  
-
-In Full deployment type installation, Keycloak and Redash Analytics must be installed separately. Forms and other dependencies are installed as a single bundle. This type installation enables users to customize formsflow by modifying environment variables.  
-
-In Individual Deployment, all the formsflow components are installed separately.This installation allows users to install the components as per their requiremets and customizations.
-
   
   
 **Select the operating system on which you are installing** :    

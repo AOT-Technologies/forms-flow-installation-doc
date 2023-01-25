@@ -6,17 +6,27 @@ nav_exclude: true
 ---
 
 ## Windows Installation
-<br>
-**Choose any one installation method**: 
-
-1. <a href="/forms-flow-installation-doc/Pages/quickinstallation/onWindows.html#quick-installation" >Quick installation</a> 
-2. More Installation Methods 
-  - <a href="/forms-flow-installation-doc/Pages/Docker_Based/DockerFull.html" >Docker Full deployment</a>
-  - <a href="/forms-flow-installation-doc/Pages/Docker_Based/IndividualService.html">Individual service deployment</a>
 
 
 ---
 
+There are three types of docker based installation .Quick Installation,Full deployment and Individual Deployment .  
+
+Quick Installation is the most basic and simplest type of formsflow Installation. Running a single script file installs formsflow and all its dependencies.Formsflow installed through Quick installation method is used to test the basic features of formsflow.  
+
+In Full deployment type installation, Keycloak and Redash Analytics must be installed separately. Forms and other dependencies are installed as a single bundle. This type installation enables users to customize formsflow by modifying environment variables.  
+
+In Individual Deployment, all the formsflow components are installed separately.This installation allows users to install the components as per their requiremets and customizations. 
+
+<br>
+**Choose any one installation method**:  
+
+<a href="/forms-flow-installation-doc/Pages/Docker_Based/QuickInstallation.html" ><button type="button" name="button" class="btn">Quick installation ></button></a>
+<a href="/forms-flow-installation-doc/Pages/Docker_Based/DockerFull.html" ><button type="button" name="button" class="btn">Docker Full deployment ></button></a>
+<a href="/forms-flow-installation-doc/Pages/Docker_Based/IndividualService.html"><button type="button" name="button" class="btn">Individual service deployment ></button></a>
+
+
+<div style="display:none;">
 ### System requirements
  
 - 64-bit with at least 16GB RAM and 25GB HDD  
@@ -99,9 +109,7 @@ The quick-installation option saves time and labour, and is less error prone tha
 - FormIO should be up and available for use at port defaulted to 3001 i.e. [ http://localhost:3001/checkpoint]( http://localhost:3001/checkpoint).
 - formsflow.ai REST API should be up and available for use at port defaulted to 5000 i.e. [http://localhost:5000/checkpoint](http://localhost:5000/checkpoint).
 - formsflow.ai web application should be up and available for use at port defaulted to 3000 i.e. [http://localhost:3000/](http://localhost:3000/). 
-- Default user credentials are provided  <a href="/forms-flow-installation-doc/Pages/user_credentials.html" target="_blank">here</a>.
-
-
+- Default user credentials are provided  <a href="/forms-flow-installation-doc/Pages/user_credentials.html" target="_blank">here</a>.</div>
 
 ---
 

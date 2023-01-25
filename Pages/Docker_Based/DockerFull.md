@@ -13,6 +13,20 @@ nav_exclude: true
 
 1. TOC
 {:toc}
+
+
+### Prerequisites
+
+- For installation of formsflow.ai, the [Docker Desktop](https://www.docker.com/) needs to be installed . If Docker has been installed, and if any previous formsflow.ai installations were done already, those need to be removed from the Docker Desktop.  
+
+### Download formflow.ai   
+
+Download the following installation bundle to perform Docker full deployment.  
+
+<span class="fs-5">
+[Formsflow.ai-zip](https://github.com/AOT-Technologies/forms-flow-ai/archive/refs/heads/master.zip){: .btn .btn-purple .mr-4}
+</span>
+
 ### Installation Steps
 \
 Following steps are required to complete the installation and setup of formsflow.ai solution:  
