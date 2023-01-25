@@ -77,11 +77,7 @@ To get the redash API key click <a href="/forms-flow-installation-doc/Pages/Dock
 ![analytics var](../../assets/DockerFull/dockerrunning.png)
 {: .ml-5}
 
-
 ### To stop the application
-
-
- 
 - Run `docker-compose stop` to stop.
 
 ### Health Check
@@ -91,7 +87,7 @@ To get the redash API key click <a href="/forms-flow-installation-doc/Pages/Dock
 - formsflow.ai Rest API should be up and available for use at port defaulted to 5000 i.e. [http://localhost:5000/checkpoint](http://localhost:5000/checkpoint).
 - formsflow.ai web application should be up and available for use at port defaulted to 3000 i.e. [http://localhost:3000/](http://localhost:3000/).
 - formsflow.ai documents API for use at port defaulted to 5006 i.e. [http://localhost:5006/checkpoint](http://localhost:5006/).
-- Default user credentials are provided <a href="/Pages/user_credentials.html" target="_blank">here</a>.  
+- Default user credentials are provided <a href="/forms-flow-installation-doc/Pages/user_credentials.html" target="_blank">here</a>.  
 
 Installation is successfully completed now.
 
