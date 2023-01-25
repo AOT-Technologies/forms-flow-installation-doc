@@ -2,8 +2,7 @@
 layout: default
 title: forms-flow-bpm
 nav_order: 4
-parent: Individual Service Deployment
-grand_parent: Docker based installation
+nav_exclude: true
 ---
 
 ## Workflow Engine

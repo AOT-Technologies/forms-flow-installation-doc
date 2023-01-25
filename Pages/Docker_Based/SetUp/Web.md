@@ -2,8 +2,7 @@
 layout: default
 title: forms-flow-web
 nav_order: 5
-parent: Individual Service Deployment
-grand_parent: Docker based installation
+nav_exclude: true
 ---
 
 ## formsflow.ai Web Application

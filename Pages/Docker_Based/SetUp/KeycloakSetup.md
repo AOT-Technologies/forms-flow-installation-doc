@@ -2,8 +2,7 @@
 layout: default
 title: Keycloak setup
 nav_order: 1
-parent: Individual Service Deployment
-grand_parent: Docker based installation
+nav_exclude: true
 ---
 ## Keycloak setup 
 {: .no_toc }

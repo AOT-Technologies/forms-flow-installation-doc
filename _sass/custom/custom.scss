@@ -4,17 +4,28 @@
     display: none;
 }
 }
-.btn-linux,.btn-mac, .btn-server,.btn-cloud,.btn-aws {
+.btn-pc ,.btn-windows ,.btn-linux,.btn-mac, .btn-server,.btn-cloud,.btn-aws, .btn-kubernetes {
     margin-left: 20px;
+    padding-bottom: 0px;
 }
 .main {
     max-width: 900px;
 }
-.site-nav {
-    margin-left: 0px;
+.btn-aws{
+    width: 240px;
 }
 .btn:hover {
     background-color: #91afc2
+}
+.btn-pc {
+   width: 160px;
+}
+.btn-linux,.btn-mac{
+    width: 170px;
+}
+.svg-label{
+    font-size: 30px;
+    margin-top: -10px;
 }
 .pc-btns{
     margin-top: 20px;

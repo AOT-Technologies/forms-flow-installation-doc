@@ -2,8 +2,7 @@
 layout: default
 title: forms-flow-analytics
 nav_order: 3
-parent: Individual Service Deployment
-grand_parent: Docker based installation
+nav_exclude: true
 ---
 ## Analytics Engine  
 {: .no_toc }
