@@ -8,7 +8,6 @@ nav_exclude: true
 ## Windows Installation
 
 
-
 ---
 
 There are three types of docker based installation .Quick Installation,Full deployment and Individual Deployment .  
