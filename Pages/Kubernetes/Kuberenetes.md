@@ -9,7 +9,8 @@ has_toc: false
 ---
 
 # Kubernetes Installation 
-\
+
+---
 Formsflow.ai can be installed using Helm, which is a tool used to deploy applications to Kubernetes clusters. Helm allows you to define, install, and upgrade applications by using Charts. For more information about Helm please visit the [Helm website](https://helm.sh/).
 \
 Formsflow.ai can be installed by either using the formsflow.ai Helm Chart repository directly or by cloning the GitHub [source code](https://github.com/AOT-Technologies/forms-flow-ai-charts) and installing it from a local directory. The following install instructions are for forms-flow-ai-charts release v2.1.1 to v2.1.4.
@@ -30,10 +31,10 @@ Before installing formsflow.ai to a Kubernetes cluster there are three prerequis
 
 
 
-Choose your method of installation :
+**Choose your method of installation** :
 
-<a href="/forms-flow-installation-doc/Pages/Kubernetes/KubernetesQuick.html" ><button type="button" name="button"   class="btn btn-purple ">Quick installation</button></a>
-<a href="/forms-flow-installation-doc/Pages/Kubernetes/KubernetesIndividual.html"><button type="button" name="button"  class="btn btn-purple ml-3">Individual Service Deployment</button></a>
+<a href="/forms-flow-installation-doc/Pages/Kubernetes/KubernetesQuick.html" ><button type="button" name="button"   class="btn ">Quick Installation ></button></a>
+<a href="/forms-flow-installation-doc/Pages/Kubernetes/KubernetesIndividual.html"><button type="button" name="button"  class="btn ml-3">Individual Service Deployment ></button></a>
 
 
 ---

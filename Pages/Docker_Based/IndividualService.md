@@ -8,11 +8,10 @@ nav_exclude: true
 ---
 
 ## Individual Service Deployment
-{: .mb-5}   
-   
+---  
 
-### Download formflow.ai   
-
+### Download formflow.ai  
+<br>
 Download the following installation bundle to perform Docker full deployment.  
 
 <span class="fs-5">
