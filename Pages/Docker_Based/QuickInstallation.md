@@ -6,15 +6,12 @@ nav_exclude: true
 ---
 
 
-## Quick installation 
+## Quick Installation 
 
 ---
 
 The quick-installation option saves time and labour, and is less error prone than manual installation. It helps you set up a running environment of formsflow.ai by installing the necessary packages and customizing the configuration files automatically. 
 
-### System requirements
- 
-- 64-bit with at least 16GB RAM and 25GB HDD  
 
 ### Prerequisites
 
@@ -93,10 +90,6 @@ The quick-installation option saves time and labour, and is less error prone tha
 
 ---
 
-
-
-
- [Next](/forms-flow-installation-doc/Pages/Docker_Based/DockerFull.html){: .btn .float-right }
 
 
 

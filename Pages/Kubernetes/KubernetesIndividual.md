@@ -1,12 +1,13 @@
 ---
 layout: default
 title: Individual Service Deployment
-parent: Kubernetes Installation
-nav_order: 3
+nav_exclude: true
 ---
 
 ## Individual Service Deployment
-\
+
+---
+
 Each service can be installed, updated, and uninstalled individually. To install the formsflow.ai application, please follow the below steps in order:
 
 1.Log in to your Kubernetes cluster using the command line interface.  
@@ -131,7 +132,6 @@ helm uninstall forms-flow-documents-api -n $NAMESPACE
 
 --- 
 
-[Prev](/forms-flow-installation-doc/Pages/Kubernetes/KubernetesQuick.html){: .btn .float-left }
 
 
 

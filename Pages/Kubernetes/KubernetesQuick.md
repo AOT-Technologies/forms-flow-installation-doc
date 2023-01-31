@@ -1,12 +1,13 @@
 ---
 layout: default
 title: Quick Installation
-parent: Kubernetes Installation
-nav_order: 2
+nav_exclude: true
 ---
 
 ## Quick Installation
-\
+
+---
+
 There are install and uninstall bash scripts included in the forms-flow-ai-charts GitHub repository that allow you to install and uninstall formsflow.ai through a short series of prompts. Once the prerequisites are met, then the forms-flow-ai-charts repository can be cloned into your local machine and the scripts can be run within the 'scripts' directory.
 
 1.Log in to a Kubernetes cluster using the command line interface.  
@@ -50,8 +51,6 @@ __Install Script__
 
  ---
 
- [Prev](/forms-flow-installation-doc/Pages/Kubernetes/Overview.html){: .btn .float-left }
- [Next](/forms-flow-installation-doc/Pages/Kubernetes/KubernetesIndividual.html){: .btn .float-right }
 
 
 *Copyright© [formsflow.ai](https://formsflow.ai/)*   

@@ -8,8 +8,15 @@ nav_exclude: true
 ---
 
 ## Individual Service Deployment
-{: .mb-5}   
-   
+---  
+
+### Download formflow.ai  
+<br>
+Download the following installation bundle to perform Docker full deployment.  
+
+<span class="fs-5">
+[Formsflow.ai-zip](https://github.com/AOT-Technologies/forms-flow-ai/archive/refs/heads/master.zip){: .btn .btn-purple .mr-4}
+</span>
 
 ### Download formflow.ai   
 
