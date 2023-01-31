@@ -73,6 +73,9 @@ The application should be up and available for use at port defaulted to 3001 in 
 
 
   --- 
+[Next](/forms-flow-installation-doc/Pages/Docker_Based/SetUp/Analytics.html){: .btn .float-right }     
+<br>
+
 *Copyright© [formsflow.ai](https://formsflow.ai/)*
 {: .text-center .mt-8}
 

@@ -83,6 +83,9 @@ The forked version of redash is being used to overcome the limited cors support 
   - Copy API Key to Clipboard
 
   --- 
+[Next](/forms-flow-installation-doc/Pages/Docker_Based/SetUp/Bpm.html){: .btn .float-right }     
+<br>
+
 *Copyright© [formsflow.ai](https://formsflow.ai/)*
 {: .text-center .mt-8}
 
