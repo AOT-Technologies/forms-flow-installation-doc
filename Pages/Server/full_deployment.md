@@ -1,8 +1,7 @@
 ---
 layout: default
-title: Docker Full Deployment
-nav_order: 2
-nav_exclude: true
+title: Server
+nav_order: 3
 ---
 
 ## Docker Full Deployment
@@ -89,7 +88,9 @@ To get the redash API key click <a href="/forms-flow-installation-doc/Pages/Dock
 - Run `docker-compose stop` to stop.
 
 
-Installation is successfully completed now.
+Installation is successfully completed now. 
+
+For SSL configuration , You can visit <a href="/forms-flow-installation-doc/Pages/server/Serverdeploytment.html" target="_blank">here</a>
 
 --- 
   

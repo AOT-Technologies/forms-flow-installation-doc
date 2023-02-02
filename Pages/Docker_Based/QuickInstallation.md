@@ -76,15 +76,7 @@ The quick-installation option saves time and labour, and is less error prone tha
 
 11.Health check can be applied.  
 
-### Health Check  
 
-- Analytics should be up and available for use at port defaulted to 7000 i.e. <a href="http://localhost:7000/" target="_blank" >http://localhost:7000/</a> .
-- Business Process Engine should be up and available for use at port defaulted to 8000 i.e. <a href="http://localhost:8000/camunda/" target="_blank" >http://localhost:8000/camunda/</a>.
-
-- FormIO should be up and available for use at port defaulted to 3001 i.e. <a href="http://localhost:3001/checkpoint" target="_blank" >http://localhost:3001/checkpoint</a> .
-- formsflow.ai REST API should be up and available for use at port defaulted to 5000 i.e. <a href="http://localhost:5000/checkpoint" target="_blank">http://localhost:5000/checkpoint</a> .
-- formsflow.ai web application should be up and available for use at port defaulted to 3000 i.e. <a href="http://localhost:3000/" target="_blank">http://localhost:3000/</a> . 
-- Default user credentials are provided  <a href="/forms-flow-installation-doc/Pages/user_credentials.html" target="_blank">here</a>.
 
 
 
