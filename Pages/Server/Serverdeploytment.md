@@ -1,9 +1,7 @@
 ---
 layout: default
-title: Server Deployment
-nav_order: 5
+title: Server deployment
 nav_exclude: true
-
 ---
 
 # Server Deployment

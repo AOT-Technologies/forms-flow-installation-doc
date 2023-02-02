@@ -1,8 +1,8 @@
 ---
 layout: default
-title: On Windows 
+title: Windows 
 nav_order: 1
-nav_exclude: true
+parent: PC
 ---
 
 ## Windows Installation
@@ -27,7 +27,7 @@ In Individual Deployment, all the formsflow components are installed separately.
 
 <a href="/forms-flow-installation-doc/Pages/Docker_Based/QuickInstallation.html" ><button type="button" name="button" class="btn mr-3">Quick Installation ></button></a>
 <a href="/forms-flow-installation-doc/Pages/Docker_Based/DockerFull.html" ><button type="button" name="button" class="btn mr-3">Docker Full Deployment ></button></a>
-<a href="/forms-flow-installation-doc/Pages/Docker_Based/IndividualService.html"><button type="button" name="button" class="btn">Individual Service Deployment ></button></a>
+
 
 
 ---
