@@ -33,8 +33,8 @@ Before installing formsflow.ai to a Kubernetes cluster there are three prerequis
 
 **Choose your method of installation** :
 
-<a href="/forms-flow-installation-doc/Pages/Kubernetes/KubernetesQuick.html" ><button type="button" name="button"   class="btn ">Quick Installation ></button></a>
-<a href="/forms-flow-installation-doc/Pages/Kubernetes/KubernetesIndividual.html"><button type="button" name="button"  class="btn ml-3">Individual Service Deployment ></button></a>
+<a href="/forms-flow-installation-doc/Pages/cloud/Kubernetes/KubernetesQuick.html" ><button type="button" name="button"   class="btn ">Quick Installation ></button></a>
+<a href="/forms-flow-installation-doc/Pages/cloud/Kubernetes/KubernetesIndividual.html"><button type="button" name="button"  class="btn ml-3">Individual Service Deployment ></button></a>
 
 
 ---
