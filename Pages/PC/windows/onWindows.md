@@ -2,7 +2,7 @@
 layout: default
 title: Windows 
 nav_order: 1
-parent: PC
+nav_exclude: true
 ---
 
 ## Windows Installation

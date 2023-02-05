@@ -2,7 +2,7 @@
 layout: default
 title:  macOS
 nav_order: 1
-parent: PC
+nav_exclude: true
 --- 
 
 ## macOS Installation 
