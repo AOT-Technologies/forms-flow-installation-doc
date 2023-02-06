@@ -38,12 +38,12 @@ Following steps are required to complete the installation and setup of formsflow
   Keycloak is an open source software product to allow single sign-on with identity and access management aimed at modern applications and services.
 
 
-  To install Keycloak follow the instructions given <a  href="/forms-flow-installation-doc/Pages/Docker_Based/SetUp/KeycloakSetup.html"  target="_blank" > here</a>.
+  To install Keycloak follow the instructions given <a  href="/forms-flow-installation-doc/Pages/Server/setUp/KeycloakSetup.html"  target="_blank" > here</a>.
  
 
 ###  forms-flow-analytics Setup.  
 Redash is used to build analytics dashboards. The analytics server can be started by following the instructions given
- <a href="/forms-flow-installation-doc/Pages/Docker_Based/SetUp/Analytics.html" target="_blank" >here</a>.
+ <a href="/forms-flow-installation-doc/Pages/Server/setUp/Analytics.html" target="_blank" >here</a>.
 
 
 
@@ -61,14 +61,14 @@ NOTE :{your-ip-address} given inside the .env file should be changed to your hos
  
 
  KEYCLOAK_BPM_CLIENT_SECRET provided in the **sample.env** is the default one.To generate new secret click 
- <a href="/forms-flow-installation-doc/Pages/Docker_Based/SetUp/Bpm.html#get-the-keycloak-bpm-client-secret" target="_blank" >here</a>.
+ <a href="/forms-flow-installation-doc/Pages/Server/setUp/bpmSecret.html" target="_blank" >here</a>.
 
 
 ![analytics var](../../assets//DockerFull/analytics%20var.png)
  {: .ml-5}
 
 
-To get the redash API key click <a href="/forms-flow-installation-doc/Pages/Docker_Based/SetUp/Analytics.html#get-the-redash-api-key" target="_blank" >here</a>.
+To get the redash API key click <a href="/forms-flow-installation-doc/Pages/Server/setUp/Analytics.html#get-the-redash-api-key" target="_blank" >here</a>.
 
 
 ![analytics var](../../assets//DockerFull/variables2.png)
@@ -90,7 +90,7 @@ To get the redash API key click <a href="/forms-flow-installation-doc/Pages/Dock
 
 Installation is successfully completed now. 
 
-For SSL configuration , You can visit <a href="/forms-flow-installation-doc/Pages/server/Serverdeploytment.html" target="_blank">here</a>
+For SSL configuration , You can visit <a href="/forms-flow-installation-doc/Pages/Server/Serverdeploytment.html" target="_blank">here</a>
 
 --- 
   
