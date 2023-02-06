@@ -75,8 +75,6 @@ This setup is preferred for local development only. A docker instance will be cr
 
 ---
 
-[Next](/forms-flow-installation-doc/Pages/Docker_Based/SetUp/forms.html){: .btn .float-right }     
-<br>
 
   *Copyright© [formsflow.ai](https://formsflow.ai/)*   
   {: .text-center .mt-8}
