@@ -25,8 +25,8 @@ In Individual Deployment, all the formsflow components are installed separately.
 
 **Choose any one installation method**:  
 
-<a href="/forms-flow-installation-doc/Pages/Docker_Based/QuickInstallation.html" ><button type="button" name="button" class="btn mr-3">Quick Installation ></button></a>
-<a href="/forms-flow-installation-doc/Pages/Docker_Based/DockerFull.html" ><button type="button" name="button" class="btn mr-3">Docker Full Deployment ></button></a>
+<a href="/forms-flow-installation-doc/Pages/PC/windows/quickinstl_windows.html" ><button type="button" name="button" class="btn mr-3">Quick Installation ></button></a>
+<a href="/forms-flow-installation-doc//Pages/PC/DockerFull.html" ><button type="button" name="button" class="btn mr-3">Docker Full Deployment ></button></a>
 
 
 
