@@ -31,43 +31,43 @@ The quick-installation option saves time and labour, and is less error prone tha
 
 3.Open the Extracted folder, choose the folder forms-flow-ai-deployment and then open the folder scripts
 
-  ![folder](../../assets/QuickDocker/quickfolder.png)
+  ![folder](../../../assets/QuickDocker/quickfolder.png)
   
 4.Double click on the install.bat file for quick Installation 
 
- ![install](../../assets/QuickDocker/install_batchfile.png)
+ ![install](../../../assets/QuickDocker/install_batchfile.png)
   {: .mt-6 .ml-6}
 
 5.The installation starts with the following question,
 
- ![installqstn1](../../assets/QuickDocker/runscript1.png)
+ ![installqstn1](../../../assets/QuickDocker/runscript1.png)
   {: .mt-6 .ml-6}  
 
   *a*.  If you need Redash Analytics Engine in the installation, provide ‘y’ as the answer, or else answer ‘n’. (To know more about Redash Analytics Engine, please visit [Redash](https://redash.io/help/) ).  
  {: .ml-5}
 
- ![installqstn2](../../assets/QuickDocker/runscript2.png)
+ ![installqstn2](../../../assets/QuickDocker/runscript2.png)
  {: .mt-6 .ml-6}  
   *b*. Verify the IP address is valid or incorrect after that. If true, provide  'y' as the answer, or else answer ‘n’.    
   {: .ml-5}
- ![installqstn3](../../assets/QuickDocker/runscript3.png)  
+ ![installqstn3](../../../assets/QuickDocker/runscript3.png)  
   {: .mt-6 .ml-6}    
  *c*. Provide the proper ip address.
  {: .ml-5}
 
 6.As part of the installation, if the user has chosen the option to install with “Analytics” the user is asked to enter the Redash API key after the successful installation of Redash.  
 
- ![install](../../assets/QuickDocker/apikey.png)
+ ![install](../../../assets/QuickDocker/apikey.png)
   {: .mt-6 .ml-6} 
 
 7.The Redash application should be available for use at port defaulted to 7000. Open [http://localhost:7000/](http://localhost:7000/) on your machine and register with any valid credentials.
 
- ![install](../../assets/QuickDocker/redash.png)
+ ![install](../../../assets/QuickDocker/redash.png)
   {: .mt-6 .ml-6} 
 
 8.To get the Redash API key, log in to [http://localhost:7000/](http://localhost:7000/),Choose Settings>>Account, and copy the API Key.
 
- ![install](../../assets/QuickDocker/redashapikey.png)
+ ![install](../../../assets/QuickDocker/redashapikey.png)
   {: .mt-6 .ml-6} 
 
 9.Copy the API Key and paste it into the cmd. The installation will continue.  
