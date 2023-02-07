@@ -3,6 +3,8 @@ layout: default
 title: Linux Quick Installation
 nav_order: 1
 nav_exclude: true
+parent: Linux
+grand_parent: PC
 ---
 
 
