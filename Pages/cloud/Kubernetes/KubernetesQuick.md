@@ -2,6 +2,8 @@
 layout: default
 title: Quick Installation
 nav_exclude: true
+parent: Kubernetes Installation 
+grand_parent: Cloud
 ---
 
 ## Quick Installation

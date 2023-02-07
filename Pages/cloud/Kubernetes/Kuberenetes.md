@@ -2,7 +2,7 @@
 layout: default
 title: Kubernetes Installation
 nav_order: 4
-has_children: true
+parent: Cloud
 nav_exclude: true
 has_toc: false
 

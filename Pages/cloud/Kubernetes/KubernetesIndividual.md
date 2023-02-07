@@ -2,6 +2,8 @@
 layout: default
 title: Individual Service Deployment
 nav_exclude: true
+parent: Kubernetes Installation 
+grand_parent: Cloud
 ---
 
 ## Individual Service Deployment

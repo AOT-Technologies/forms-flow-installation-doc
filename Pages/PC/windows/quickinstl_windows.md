@@ -3,6 +3,8 @@ layout: default
 title: Quick Installation
 nav_order: 1
 nav_exclude: true
+parent:  Windows 
+grand_parent: PC
 ---
 
 

@@ -3,6 +3,8 @@ layout: default
 title: macOS Quick Installation
 nav_order: 1
 nav_exclude: true
+parent: macOS
+grand_parent: PC
 ---
 
 
