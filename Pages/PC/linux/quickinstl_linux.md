@@ -26,7 +26,7 @@ The quick-installation option saves time and labour, and is less error prone tha
 1.Download the following installation bundle to perform Quick Installation
   
 <span class="fs-5">
-[Formsflow.ai_windows-zip](https://github.com/AOT-Technologies/forms-flow-ai-deployment/archive/refs/heads/main.zip){: .btn .btn-purple .mr-4}
+[Formsflow.ai-zip](https://github.com/AOT-Technologies/forms-flow-ai-deployment/archive/refs/heads/main.zip){: .btn .btn-purple .mr-4}
 </span>   
 
 2.Extract the contents of the downloaded zip file in the desired location   
@@ -35,9 +35,9 @@ The quick-installation option saves time and labour, and is less error prone tha
 
   ![folder](../../../assets/QuickDocker/quickfolder.png)
   
-4.Double click on the install.bat file for quick Installation 
+4.Double click on the install.bash file for quick Installation 
 
- ![install](../../../assets/QuickDocker/install_batchfile.png)
+ ![install](../../../assets/QuickDocker/install_bash.png)
   {: .mt-6 .ml-6}
 
 5.The installation starts with the following question,

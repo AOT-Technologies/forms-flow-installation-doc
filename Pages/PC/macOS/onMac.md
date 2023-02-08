@@ -1,7 +1,7 @@
 ---
 layout: default
 title:  macOS
-nav_order: 1
+nav_order: 2
 nav_exclude: true
 parent : PC
 
