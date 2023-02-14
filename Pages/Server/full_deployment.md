@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Server
+title: Containerized Deployment
 nav_order: 3
 ---
 
@@ -90,7 +90,7 @@ To get the redash API key click <a href="/forms-flow-installation-doc/Pages/Serv
 
 Installation is successfully completed now. 
 
-For SSL configuration , You can visit <a href="/forms-flow-installation-doc/Pages/Server/Serverdeploytment.html" target="_blank">here</a>
+If you would like to have SSL configuration, please visit <a href="/forms-flow-installation-doc/Pages/Server/Serverdeploytment.html" target="_blank">here</a>
 
 --- 
   
