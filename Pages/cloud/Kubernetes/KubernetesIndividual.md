@@ -55,42 +55,43 @@ Each service can be installed, updated, and uninstalled individually. To install
  --set Domain=$DOMAIN_NAME \ 
  --set forms-flow-idm.keycloak.ingress.hostname=forms-flow-idm-$NAMESPACE.$DOMAIN_NAME \
  --namespace $NAMESPACE  
-\
+<br>
  helm install forms-flow-analytics formsflow/forms-flow-analytics \
  --set Domain=$DOMAIN_NAME \
  --namespace $NAMESPACE   
-\
+<br>
  helm install forms-flow-forms formsflow/forms-flow-forms \
  --set Domain=$DOMAIN_NAME \
  --namespace $NAMESPACE   
-\
+<br>
  helm install forms-flow-idm formsflow/forms-flow-idm \
  --set Domain=$DOMAIN_NAME \
  --set keycloak.ingress.hostname=forms-flow-idm-$NAMESPACE.$DOMAIN_NAME \
  --namespace $NAMESPACE
-\
-\
+<br>
+<br>
  # Optional Premium Admin Service:  
  helm install forms-flow-admin formsflow/forms-flow-admin \
  --set Domain=$DOMAIN_NAME \
  --namespace $NAMESPACE   
-\
+<br>
  helm install forms-flow-api formsflow/forms-flow-api \
  --set Domain=$DOMAIN_NAME \
  --namespace $NAMESPACE   
-\
+<br>
  helm install forms-flow-bpm formsflow/forms-flow-bpm \
  --set Domain=$DOMAIN_NAME \
  --set camunda.websocket.securityOrigin=https://*.$DOMAIN_NAME \
  --namespace $NAMESPACE   
-\
+<br>
  helm install forms-flow-data-analysis formsflow/forms-flow-data-analysis \
  --set Domain=$DOMAIN_NAME \
  --namespace $NAMESPACE   
-\
+<br>
  helm install forms-flow-documents-api formsflow/forms-flow-documents-api \
  --set Domain=$DOMAIN_NAME \
  --namespace $NAMESPACE  
+ <br>
  helm install forms-flow-web formsflow/forms-flow-web \
  --set Domain=$DOMAIN_NAME \
  --namespace $NAMESPACE

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Containerized Deployment 
-nav_order: 4
+nav_order: 3
 ---
 
 ## Docker Full Deployment
@@ -19,7 +19,7 @@ This type of deployment allows users to customize formsflow by modifying the env
 Download the following installation bundle to perform Docker full deployment.  
 
 <span class="fs-5">
-[Formsflow.ai-zip](https://github.com/AOT-Technologies/forms-flow-ai/archive/refs/heads/master.zip){: .btn .btn-purple .mr-4}
+[Formsflow.ai-zip](https://github.com/AOT-Technologies/forms-flow-ai-deployment/archive/refs/heads/main.zip){: .btn .btn-purple .mr-4}
 </span>
 
 ### Installation Steps  
@@ -112,7 +112,7 @@ Follow the instructions below to set up Keycloak, forms-flow-web, forms-flow-bpm
   - Make sure the working directory is `forms-flow-ai-deployment\docker-compose`.
   - Run `docker-compose run --rm server create_db` to set up the database and to create tables.
   - Run `docker-compose up -d` to start.
-  
+
 >Note: 
 >Use the ‘--build’  command with the start command to reflect any future *.env* changes   
 >eg: `docker-compose up --build -d`  

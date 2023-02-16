@@ -20,8 +20,9 @@
 .btn:hover {
     background-color: #91afc2
 }
-.btn-pc {
-   width: 160px;
+.btn-pc ,.btn-cloud{
+width: 200px;
+padding-bottom: 19px;
 }
 .btn-linux,.btn-mac{
     width: 180px;
@@ -29,4 +30,11 @@
 .svg-label{
     font-size: 30px;
 }
-
+.containerized{
+    font-size: 20px;
+}
+.btn-server{
+    line-height: 1;
+    width: 200px;
+    padding-bottom: 10px;
+}
