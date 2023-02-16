@@ -36,6 +36,9 @@ For more information [visit](https://formsflow.ai/).
 </span>  
 
 ---
+If you face any issues while installing ,please connect with [us]()
+{: .text-center .mt-8}
+<br>
 
   *Copyright© [formsflow.ai](https://formsflow.ai/)*   
   {: .text-center .mt-8}
