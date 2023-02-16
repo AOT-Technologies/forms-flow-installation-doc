@@ -86,10 +86,6 @@ The quick-installation option saves time and labour, and is less error prone tha
 
 10.Once the installation is complete, the command prompt displays the installation is complete. The Docker Desktop displays all the installed containers.  
 
-11.Health check can be applied.  
-
-
-
 
 
 

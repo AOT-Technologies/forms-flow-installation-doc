@@ -51,18 +51,18 @@ The quick-installation option saves time and labour, and is less error prone tha
   
 4.Double click on the install.bash file for quick Installation 
 
- ![install](../../../assets/QuickDocker/install_bash.png)
+ ![install](../../../assets/QuickDocker/mac/mac_bash.png)
   {: .mt-6 .ml-6}
 
 5.The installation starts with the following question,
 
- ![installqstn1](../../../assets/QuickDocker/runscript1.png)
+ ![installqstn1](../../../assets/QuickDocker/mac/mac_analytics.png)
   {: .mt-6 .ml-6}  
 
   *a*.  If you need Redash Analytics Engine in the installation, provide ‘y’ as the answer, or else answer ‘n’. (To know more about Redash Analytics Engine, please visit [Redash](https://redash.io/help/) ).  
  {: .ml-5}
 
- ![installqstn2](../../../assets/QuickDocker/runscript2.png)
+ ![installqstn2](../../../assets/QuickDocker/mac/mac_order.png)
  {: .mt-6 .ml-6}  
   *b*. Verify the IP address is valid or incorrect after that. If true, provide  'y' as the answer, or else answer ‘n’.    
   {: .ml-5}
@@ -73,7 +73,10 @@ The quick-installation option saves time and labour, and is less error prone tha
 
 6.As part of the installation, if the user has chosen the option to install with “Analytics” the user is asked to enter the Redash API key after the successful installation of Redash.  
 
- ![install](../../../assets/QuickDocker/apikey.png)
+ ![install](../../../assets/QuickDocker/mac/mac_installing.png)  
+ {: .mt-6 .ml-6} 
+
+ ![install](../../../assets/QuickDocker/mac/mac_installing2.png)
   {: .mt-6 .ml-6} 
 
 7.The Redash application should be available for use at port defaulted to 7000. Open [http://localhost:7000/](http://localhost:7000/) on your machine and register with any valid credentials.
@@ -89,10 +92,7 @@ The quick-installation option saves time and labour, and is less error prone tha
 9.Copy the API Key and paste it into the cmd. The installation will continue.  
 
 10.Once the installation is complete, the command prompt displays the installation is complete. The Docker Desktop displays all the installed containers.  
-
-11.Health check can be applied.  
-
-
+ 
 
 
  
