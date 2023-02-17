@@ -136,7 +136,7 @@ helm uninstall forms-flow-documents-api -n $NAMESPACE
 --- 
 
 
-If you face any issues while installing ,please connect with [us](https://github.com/AOT-Technologies/forms-flow-ai/issues)
+If you face any issues while installing ,please connect with [us](https://github.com/AOT-Technologies/forms-flow-ai/issues).
 {: .text-center }
 <br>
 *Copyright© [formsflow.ai](https://formsflow.ai/)*   
