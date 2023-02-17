@@ -24,8 +24,11 @@
 width: 200px;
 padding-bottom: 19px;
 }
-.btn-linux,.btn-mac{
-    width: 180px;
+.btn-linux,.btn-mac,.btn-windows{
+    width: 200px;
+}
+.btn-kubernetes,.btn-aws{
+    width: 250px;
 }
 .svg-label{
     font-size: 30px;

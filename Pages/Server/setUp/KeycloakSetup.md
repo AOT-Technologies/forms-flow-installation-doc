@@ -76,5 +76,8 @@ This setup is preferred for local development only. A docker instance will be cr
 ---
 
 
-  *Copyright© [formsflow.ai](https://formsflow.ai/)*   
-  {: .text-center .mt-8}
+If you face any issues while installing ,please connect with [us](https://github.com/AOT-Technologies/forms-flow-ai/issues)
+{: .text-center }
+<br>
+*Copyright© [formsflow.ai](https://formsflow.ai/)*   
+{: .text-center}

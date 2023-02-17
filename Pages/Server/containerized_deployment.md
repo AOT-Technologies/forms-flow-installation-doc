@@ -12,7 +12,7 @@ This type of deployment allows users to customize formsflow by modifying the env
 
 ### Prerequisites  
 - Admin access to a local or remote server ( 64-bit with at least 16GB RAM and 25GB HDD).
-- For the installation of formsflow.ai, the <a href="https://www.docker.com/" target="_blank" >Docker Desktop</a> needs to be installed. If Docker has been installed, and if any previous formsflow.ai installations were done already, those need to be removed from the Docker Desktop
+- For the installation of formsflow.ai, the <a href="https://www.docker.com/" target="_blank" >Docker Desktop</a> needs to be installed. If Docker has been installed, and if any previous formsflow.ai installations were done already, those need to be removed from the Docker Desktop.
 
 ### Download formflow.ai   
 
@@ -54,7 +54,7 @@ Follow the instructions below to set up Keycloak, forms-flow-web, forms-flow-bpm
    ![install 3](../../assets//DockerFull/dockerfull_3.png)
    {: .ml-5}
    
-   **INSIGHT_API_URL** and **INSIGHT_API_KEY** API Key are required only for Redash Analytics setup. For the  Redash API key, Analytics should be set up first,    and click  <a href="/forms-flow-installation-doc/Pages/Server/setUp/Analytics.html#get-the-redash-api-key"     target="_blank">here</a> to get the Redash API key
+   **INSIGHT_API_URL** and **INSIGHT_API_KEY** API Key are required only for Redash Analytics setup. For the  Redash API key, Analytics should be set up first,    and click  <a href="/forms-flow-installation-doc/Pages/Server/setUp/Analytics.html#get-the-redash-api-key"     target="_blank">here</a> to get the Redash API key.  
    
    
    ![install 4](../../assets//DockerFull/dockerfull_4.png)  
@@ -106,7 +106,7 @@ Follow the instructions below to set up Keycloak, forms-flow-web, forms-flow-bpm
    ![install 9](../../assets//DockerFull/dockerfull_9.png)
    {: .ml-5}  
 
-   To get the Redash API key click <a href="/forms-flow-installation-doc/Pages/Server/setUp/Analytics.html#get-the-redash-api-key" target="_blank">here</a>
+   To get the Redash API key click <a href="/forms-flow-installation-doc/Pages/Server/setUp/Analytics.html#get-the-redash-api-key" target="_blank">here</a>.
 
 3. **Running the Application** 
   - Make sure the working directory is `forms-flow-ai-deployment\docker-compose`.
@@ -125,10 +125,12 @@ Follow the instructions below to set up Keycloak, forms-flow-web, forms-flow-bpm
 
 Installation is successfully completed now. 
 
-If you would like to have SSL configuration, please visit <a href="/forms-flow-installation-doc/Pages/Server/Serverdeploytment.html" target="_blank">here</a>
+If you would like to have SSL configuration, please visit <a href="/forms-flow-installation-doc/Pages/Server/Serverdeploytment.html" target="_blank">here</a>.
 
 
 --- 
-  
-  *Copyright© [formsflow.ai](https://formsflow.ai/)*   
-  {: .text-center .mt-8 .pt-8}
+If you face any issues while installing ,please connect with [us](https://github.com/AOT-Technologies/forms-flow-ai/issues)
+{: .text-center }
+<br>
+*Copyright© [formsflow.ai](https://formsflow.ai/)*   
+{: .text-center}

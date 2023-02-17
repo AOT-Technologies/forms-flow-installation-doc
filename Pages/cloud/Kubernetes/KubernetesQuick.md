@@ -53,7 +53,8 @@ __Install Script__
 
  ---
 
-
-
+If you face any issues while installing ,please connect with [us](https://github.com/AOT-Technologies/forms-flow-ai/issues)
+{: .text-center }
+<br>
 *Copyright© [formsflow.ai](https://formsflow.ai/)*   
-{: .text-center .mt-8 .pt-8}
+{: .text-center}
