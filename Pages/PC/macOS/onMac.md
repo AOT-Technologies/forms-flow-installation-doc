@@ -18,7 +18,7 @@ Quick Installation is the most basic and simplest type of formsflow Installation
 ### System requirements  
 
 - At least 4 GB of RAM.
-- VirtualBox prior to version 4.3.30 must not be installed as version 4.3.40 is not compatible with Docker Desktop
+- VirtualBox prior to version 4.3.30 must not be installed as version 4.3.40 is not compatible with Docker Desktop.
 - macOS must be version 11 or newer (recommend upgrading to the latest version of macOS). 
 
 
@@ -37,19 +37,17 @@ The quick-installation option saves time and labour, and is less error prone tha
 
 ## Steps for formsflow.ai Installation  
 
-1.Download the following installation bundle to perform Quick Installation
+1.Download the following installation bundle to perform Quick Installation.
   
 <span class="fs-5">
 [Formsflow.ai-zip](https://github.com/AOT-Technologies/forms-flow-ai-deployment/archive/refs/heads/main.zip){: .btn .btn-purple .mr-4}
 </span>   
 
-2.Extract the contents of the downloaded zip file in the desired location   
+2.Extract the contents of the downloaded zip file in the desired location.   
 
-3.Open the Extracted folder, choose the folder forms-flow-ai-deployment and then open the folder scripts
-
-  ![folder](../../../assets/QuickDocker/quickfolder.png)
+3.Open the Extracted folder, choose the folder forms-flow-ai-deployment and then open the folder scripts.
   
-4.Double click on the install.bash file for quick Installation 
+4.Double click on the install.bash file for quick Installation. 
 
  ![install](../../../assets/QuickDocker/mac/mac_bash.png)
   {: .mt-6 .ml-6}
@@ -66,8 +64,7 @@ The quick-installation option saves time and labour, and is less error prone tha
  {: .mt-6 .ml-6}  
   *b*. Verify the IP address is valid or incorrect after that. If true, provide  'y' as the answer, or else answer ‘n’.    
   {: .ml-5}
- ![installqstn3](../../../assets/QuickDocker/runscript3.png)  
-  {: .mt-6 .ml-6}    
+ 
  *c*. Provide the proper ip address.
  {: .ml-5}
 
@@ -99,7 +96,7 @@ The quick-installation option saves time and labour, and is less error prone tha
  ---
 
 
-If you face any issues while installing ,please connect with [us](https://github.com/AOT-Technologies/forms-flow-ai/issues)
+If you face any issues while installing ,please connect with [us](https://github.com/AOT-Technologies/forms-flow-ai/issues).
 {: .text-center }
 <br>
 *Copyright© [formsflow.ai](https://formsflow.ai/)*   

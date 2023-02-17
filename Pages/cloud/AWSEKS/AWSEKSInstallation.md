@@ -147,7 +147,7 @@ Now lets create Nginx Ingress Let’s Encrypt TLS certificate for your microserv
 ```
 sudo nano letsencrypt-cert.yml
 ```
-Modify the Nginx Ingress Let’s Encrypt TLS certificate as per your micro service/domain name
+Modify the Nginx Ingress Let’s Encrypt TLS certificate as per your micro service/domain name.
 ```
 apiVersion: cert-manager.io/v1
 kind: Certificate
@@ -248,7 +248,7 @@ helm upgrade --install forms-flow-web forms-flow-web --set Domain=aot-technologi
 
 ----
 
-If you face any issues while installing ,please connect with [us](https://github.com/AOT-Technologies/forms-flow-ai/issues)
+If you face any issues while installing ,please connect with [us](https://github.com/AOT-Technologies/forms-flow-ai/issues).
 {: .text-center }
 <br>
 *Copyright© [formsflow.ai](https://formsflow.ai/)*   
