@@ -18,7 +18,7 @@ Quick Installation is the most basic and simplest type of formsflow Installation
 ### System requirements  
 
 - At least 4 GB of RAM.
-- VirtualBox prior to version 4.3.30 must not be installed as version 4.3.40 is not compatible with Docker Desktop.
+- VirtualBox prior to version 4.3.30 must not be installed as it is not compatible with Docker Desktop.
 - macOS must be version 11 or newer (recommend upgrading to the latest version of macOS). 
 
 

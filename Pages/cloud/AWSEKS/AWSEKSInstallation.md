@@ -93,15 +93,11 @@ kubectl get services ingress-nginx-controller
 ```
 ### Step 4: Pointing Ingress Loadbalancer in Domain Name Provider to access the App using Domain Name.
 
-To access your application/domain name using browser you can either access using Loadbalancer URL or you can point Loadbalancer URL by adding A record in Domain Provider. you can get the ip of the Loadbalancer URL using nslookup command.
+To access your application/domain name using browser you can either access using Loadbalancer URL or you can point Loadbalancer URL by adding CNAME record  in Domain Provider.
 
-```
-nslookup <Loadbalancer URL>
-
-```
 ### Step 5: Configure Cert manager for Nginx Ingress.
 
-once nginx ingress controller setup is done on your Kubernetes cluster, Lets install and configure cert manager using below kubectl command for Kubernetes version 1.16+ .
+once nginx ingress controller setup is done on your Kubernetes cluster, Let's install and configure cert manager using the below kubectl command for Kubernetes version 1.16+ .
 
 ```
 kubectl apply --validate=false -f https://github.com/jetstack/cert-manager/releases/download/v1.0.1/cert-manager.yaml
@@ -109,7 +105,7 @@ kubectl apply --validate=false -f https://github.com/jetstack/cert-manager/relea
 ```
 ### Step 6: Kubernetes Nginx Ingress with Letsencrypt.
 
-To configure Kubernetes Nginx Ingress Controller LetsEncrypt , navigate to cert manager acme ingress page, go to Configure Let’s Encrypt Issuer, copy the let’s encrypt issuer yml and change as shown below.
+To configure Kubernetes Nginx Ingress Controller LetsEncrypt , navigate to cert manager acme ingress page, go to Configure Lets Encrypt Issuer, copy the letsencrypt issuer yml and change as shown below.
 
 ```
 sudo nano  letsencrypt-issuer.yml
@@ -139,15 +135,15 @@ spec:
 ```
 kubectl apply -f letsencrypt-issuer.yml
 ```
-We have deployed let’s encrypt issuer which issues certificates.
+We have deployed letsencrypt issuer which issues certificates.
 ### Step 7: Creating nginx Ingress Letsencrypt TLS Certificate
 
-Now lets create Nginx Ingress Let’s Encrypt TLS certificate for your microservice.
+Now lets create Nginx Ingress Letsencrypt TLS certificate for your microservice.
 
 ```
 sudo nano letsencrypt-cert.yml
 ```
-Modify the Nginx Ingress Let’s Encrypt TLS certificate as per your micro service/domain name.
+Modify the Nginx Ingress Letsencrypt TLS certificate as per your micro service/domain name.
 ```
 apiVersion: cert-manager.io/v1
 kind: Certificate
