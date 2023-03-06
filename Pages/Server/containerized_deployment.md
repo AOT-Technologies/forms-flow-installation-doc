@@ -36,7 +36,7 @@ The following steps are required to complete the installation and setup of forms
 Follow the instructions below to set up Keycloak, forms-flow-web, forms-flow-bpm, and forms-flow-api.
 
 1. **Configuring the .env file**
-   - Make sure your current working directory is `forms-flow-ai-deployment\docker-compose`.
+   - Make sure your current working directory is `forms-flow-ai-deployment-main\docker-compose`.
    - Rename the file *sample.env* to *.env*.
    - Modify the environment variables inside the .env file if needed. Environment variables are given below.  
 
@@ -64,7 +64,7 @@ Follow the instructions below to set up Keycloak, forms-flow-web, forms-flow-bpm
 
 
 2. **Configuring the config.js file**
-   - Make sure your current working directory is `forms-flow-ai-deployment\docker-compose\configuration`.
+   - Make sure your current working directory is `forms-flow-ai-deployment-main\docker-compose\configuration`.
    - Modify the environment variables inside the *config.js*  file if needed. Environment variables are given below.  
 
    >Note: {your-ip-address} given inside the config.js  file should be changed to your host system IP address. Please take special care to identify the correct IP address if your system has multiple network cards.
@@ -76,7 +76,7 @@ Follow the instructions below to set up Keycloak, forms-flow-web, forms-flow-bpm
    {: .ml-5}
 
 3. **Running the Application**
-   - Make sure the working directory is `forms-flow-ai-deployment\docker-compose`.  
+   - Make sure the working directory is `forms-flow-ai-deployment-main\docker-compose`.  
    - Run docker-compose up -d to start (Use `docker-compose-arm64.yml` file for ARM processers. eg: Apple M1). 
 
    ![install 8](../../assets//DockerFull/dockerfull_8.png)
@@ -97,7 +97,7 @@ Follow the instructions below to set up Keycloak, forms-flow-web, forms-flow-bpm
 
 2. **Installation**  
    - Analytics service uses port 7000, make sure the port is available.
-   - Make sure the working directory is `forms-flow-ai-deployment\docker-compose`.
+   - Make sure the working directory is `forms-flow-ai-deployment-main\docker-compose`.
    - Update the environment variables **INSIGHT_API_URL** and **INSIGHT_API_KEY**, in the *.env* file.   
 
    >NOTE: {your-ip-address} given inside the .env file should be changed to your host system IP address. Please take special care to identify the correct IP address if your system has multiple network cards.
@@ -109,7 +109,7 @@ Follow the instructions below to set up Keycloak, forms-flow-web, forms-flow-bpm
    To get the Redash API key click <a href="/forms-flow-installation-doc/Pages/Server/setUp/Analytics.html#get-the-redash-api-key" target="_blank">here</a>.
 
 3. **Running the Application** 
-  - Make sure the working directory is `forms-flow-ai-deployment\docker-compose`.
+  - Make sure the working directory is `forms-flow-ai-deployment-main\docker-compose`.
   - Run `docker-compose run --rm server create_db` to set up the database and to create tables.
   - Run `docker-compose up -d` to start.
 
