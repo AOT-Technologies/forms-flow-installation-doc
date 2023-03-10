@@ -105,7 +105,7 @@ kubectl apply --validate=false -f https://github.com/jetstack/cert-manager/relea
 ```
 ### Step 6: Kubernetes Nginx Ingress with Letsencrypt.
 
-To configure Kubernetes Nginx Ingress Controller LetsEncrypt , navigate to cert manager acme ingress page, go to Configure Lets Encrypt Issuer, copy the letsencrypt issuer yml and change as shown below.
+To configure Kubernetes Nginx Ingress Controller Letsencrypt , navigate to cert manager acme ingress page, go to Configure Letsencrypt  Issuer, copy the letsencrypt issuer yml and change as shown below.
 
 ```
 sudo nano  letsencrypt-issuer.yml
@@ -186,6 +186,20 @@ which means we have to perform step 6 and step 7 for the charts.
 
 ```
 ### Step 8: Installing ebs-csi driver
+The driver requires IAM permissions to talk to Amazon EBS to manage the volume on user's behalf.  
+For more information, review ["Creating the Amazon EBS CSI driver IAM role for service accounts" from the EKS User Guide](https://docs.aws.amazon.com/eks/latest/userguide/csi-iam-role.html).
+
+There are several methods to grant the driver IAM permissions:
+- Using IAM instance profile - attach the policy to the instance profile IAM role and turn on access to instance metadata for the instance(s)  on which the driver Deployment will run
+- EKS only: Using IAM roles for ServiceAccounts - create an IAM role, attach the policy to it, then follow the IRSA documentation to associate the IAM role with the driver Deployment service account, which if you are installing via Helm is determined by value controller.serviceAccount.name, ebs-csi-controller-sa by default
+- Using secret object - create an IAM user, attach the policy to it, then create a generic secret called aws-secret in the kube-system namespace with the user's credentials.   
+
+```
+kubectl create secret generic aws-secret \
+    --namespace kube-system \
+    --from-literal "key_id=${AWS_ACCESS_KEY_ID}" \
+    --from-literal "access_key=${AWS_SECRET_ACCESS_KEY}"
+```
 
 Add the aws-ebs-csi-driver Helm repository.
 
