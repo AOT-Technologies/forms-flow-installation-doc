@@ -85,7 +85,16 @@ The quick-installation option saves time and labour, and is less error prone tha
 
 9.Copy the API Key and paste it into the cmd. The installation will continue.  
 
-10.Once the installation is complete, the command prompt displays the installation is complete. The Docker Desktop displays all the installed containers.  
+10.Once the installation is complete, the command prompt displays the installation is complete. The Docker Desktop displays all the installed containers. 
+
+### Health Check 
+ - Analytics should be up and available for use at port defaulted to 7001 i.e.<a target="_blank" href="http://localhost:7001/">http://localhost:7001/</a>.
+ - Business Process Engine should be up and available for use at port defaulted to 8000 i.e. <a target="_blank" href="http://localhost:8000/camunda/">http://localhost:8000/camunda/</a>.
+ - FormIO should be up and available for use at port defaulted to 3001 i.e. <a target="_blank" href="http://localhost:3001/checkpoint">http://localhost:3001/checkpoint</a> .
+ - formsflow.ai REST API should be up and available for use at port defaulted to 5000 i.e. <a target="_blank" href="http://localhost:5000/checkpoint">http://localhost:5000/checkpoint</a> .
+ - formsflow.ai web application should be up and available for use at port defaulted to 3000 i.e. <a target="_blank" href="http://localhost:3000/">http://localhost:3000/</a>.
+ - Default user credentials are provided <a target="_blank" href="/forms-flow-installation-doc/Pages/user_credentials.html">here</a> .
+
 
 ### Uninstall Formsflow  
 To uninstall formsflow installed through quick installation, click  the uninstall file in the `\forms-flow-ai-deployment\scripts` directory  
