@@ -18,6 +18,7 @@ Quick Installation is the most basic and simplest type of formsflow Installation
 - 64-bit kernel and CPU support for virtualization.
 - minimum 4 GB RAM , 20 GB Storage.
 
+Verify the system requirements <a target="_blank" href="/forms-flow-installation-doc/Pages/supporting_version.html">here</a>.
 ## Quick Installation 
 
 ---
