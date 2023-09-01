@@ -33,6 +33,8 @@ The quick-installation option saves time and labour, and is less error prone tha
 
 - For installation of formsflow.ai, the [Docker Desktop](https://www.docker.com/) needs to be installed . If Docker has been installed, and if any previous formsflow.ai installations were done already, those need to be removed from the Docker Desktop.  
 
+>  _click <a target="_blank" href="/forms-flow-installation-doc/Pages/supporting_version.html">here</a> to see tested OS configurations_  
+{: .bg-grey-lt-000 .p-2}
 
 
 ## Steps for formsflow.ai Installation  
