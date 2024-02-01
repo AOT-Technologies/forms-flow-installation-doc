@@ -89,6 +89,53 @@ The quick-installation option saves time and labour, and is less error prone tha
 9.Copy the API Key and paste it into the cmd. The installation will continue.  
 
 10.Once the installation is complete, the command prompt displays the installation is complete. The Docker Desktop displays all the installed containers. 
+## Mail-Configuration-quick-installation
+For the email-configuration for “Quick-installation” part follow the below steps:- 
+
+- Create a directory inside the configuration folder(Inside docker-compose directory) named bpm-mail-config. 
+- Create a file name mail.config.properties inside the bpm-mail-config
+directory and copy the below contents and update the values as needed. 
+
+```
+# Send mails via SMTP. The given settings are for Gmail 
+mail.transport.protocol=smtp
+
+mail.smtp.host=smtp.gmail.com
+mail.smtp.port=465
+mail.smtp.auth=true
+mail.smtp.ssl.enable=true
+mail.smtp.socketFactory.port=465
+mail.smtp.socketFactory.class=javax.net.ssl.SSLSocketFactory
+
+# Poll mails via IMAPS.
+mail.store.protocol=imaps
+mail.imaps.host=imap.gmail.com
+mail.imaps.port=993
+mail.imaps.timeout=10000
+
+mail.sender=donotreply
+mail.sender.alias=DoNotReply
+
+mail.attachment.download=true
+mail.attachment.path=attachments
+
+# Credentials
+mail.user=CHANGEME@gmail.com
+mail.password=CHANGEME
+```
+![mail configuration](../../../assets/QuickDocker/mail_configuration.png)
+{: .mt-6 .ml-6} 
+
+- Now run the container to verify the changes. 
+
+
+## Mail-configuration-Main Repository 
+
+- Clone the Github repository  <a target="_blank" href="https://github.com/AOT-Technologies/forms-flow-ai.git">https://github.com/AOT-
+Technologies/forms-flow-ai.git</a>.
+- Edit the changes needed inside- forms-flow-bpm/forms-flow-bpm-
+camunda/src/main/resources/mail-config.properties.
+- Then run the container to see the reflected changes.
 
 ### Health Check 
  - Analytics should be up and available for use at port defaulted to 7001 i.e.<a target="_blank" href="http://localhost:7001/">http://localhost:7001/</a>.
