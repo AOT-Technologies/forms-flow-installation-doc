@@ -90,7 +90,7 @@ The quick-installation option saves time and labour, and is less error prone tha
 
 10.Once the installation is complete, the command prompt displays the installation is complete. The Docker Desktop displays all the installed containers. 
 ## Mail-Configuration-quick-installation
-For the email-configuration for “Quick-installation” part follow the below steps:- 
+For the email-configuration for “Quick-installation”, follow the steps below:- 
 
 - Create a directory inside the configuration folder(Inside docker-compose directory) named bpm-mail-config. 
 - Create a file name mail.config.properties inside the bpm-mail-config
@@ -123,6 +123,7 @@ mail.attachment.path=attachments
 mail.user=CHANGEME@gmail.com
 mail.password=CHANGEME
 ```
+{: .ml-6}
 ![mail configuration](../../../assets/QuickDocker/mail_configuration.png)
 {: .mt-6 .ml-6} 
 
@@ -133,8 +134,8 @@ mail.password=CHANGEME
 
 - Clone the Github repository  <a target="_blank" href="https://github.com/AOT-Technologies/forms-flow-ai.git">https://github.com/AOT-
 Technologies/forms-flow-ai.git</a>.
-- Edit the changes needed inside- forms-flow-bpm/forms-flow-bpm-
-camunda/src/main/resources/mail-config.properties.
+- Edit the changes needed inside `forms-flow-bpm/forms-flow-bpm-
+camunda/src/main/resources/mail-config.properties`.
 - Then run the container to see the reflected changes.
 
 ### Health Check 
@@ -150,7 +151,7 @@ camunda/src/main/resources/mail-config.properties.
 To uninstall formsflow installed through quick installation, click  the uninstall file in the `\forms-flow-ai-deployment\scripts` directory  
 
  ![install](../../../assets/QuickDocker/uninstall_script.png)
-
+{: .mt-6 .ml-6} 
 ---
 
 If you face any issues while installing ,please connect with [us](https://github.com/AOT-Technologies/forms-flow-ai/issues).
