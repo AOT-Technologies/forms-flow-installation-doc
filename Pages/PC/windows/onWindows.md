@@ -12,7 +12,7 @@ parent : PC
 ---
 
 
-Quick Installation is the most basic and simplest type of formsflow Installation. Running a single script file installs formsflow and all its dependencies.Formsflow installed through Quick installation method is used to test the basic features of formsflow.  
+The Quick Installation method is the simplest and most straightforward way to set up formsflow. By running a single script, it automatically installs formsflow along with all necessary dependencies. This installation approach is ideal for testing the basic features and functionality of formsflow without complex configurations.  
 
 
 ### System requirements
@@ -23,7 +23,7 @@ Quick Installation is the most basic and simplest type of formsflow Installation
 
 ---
 
-The quick-installation option saves time and labour, and is less error prone than manual installation. It helps you set up a running environment of formsflow.ai by installing the necessary packages and customizing the configuration files automatically. 
+The quick-installation option streamlines the setup process by saving time and effort, while reducing the risk of errors compared to manual installation. It automatically installs the required packages and configures files, providing a ready-to-use environment for formsflow.ai with minimal hassle.
 
 
 ### Prerequisites
@@ -51,12 +51,12 @@ The quick-installation option saves time and labour, and is less error prone tha
   
 4.Double click on the install.bat file for quick Installation. 
 
- ![install](../../../assets/QuickDocker/install_batchfile.png)
+ ![install](../../../assets/QuickDocker/install_batch.png)
   {: .mt-6 .ml-6}
 
 5.The installation starts with the following question,
 
- ![installqstn1](../../../assets/QuickDocker/runscript1.png)
+ ![installqstn1](../../../assets/QuickDocker/run_script_1.png)
   {: .mt-6 .ml-6}  
 
   *a*.  If you need Redash Analytics Engine in the installation, provide ‘y’ as the answer, or else answer ‘n’. (To know more about Redash Analytics Engine, please visit [Redash](https://redash.io/help/) ).  
@@ -81,14 +81,25 @@ The quick-installation option saves time and labour, and is less error prone tha
  ![install](../../../assets/QuickDocker/redash.png)
   {: .mt-6 .ml-6} 
 
-8.To get the Redash API key, log in to [http://localhost:7000/](http://localhost:7000/),Choose Settings>>Account, and copy the API Key.
+8.To get the Redash API key, log in to [http://localhost:7001/](http://localhost:7001/),Choose Settings>>Account, and copy the API Key.
 
  ![install](../../../assets/QuickDocker/redashapikey.png)
   {: .mt-6 .ml-6} 
 
-9.Copy the API Key and paste it into the cmd. The installation will continue.  
+9.Copy the API Key and paste it into the cmd. The installation will continue.
 
-10.Once the installation is complete, the command prompt displays the installation is complete. The Docker Desktop displays all the installed containers. 
+10.As part of the installation, the user has the option to install formsflow.ai  with “Data-Analysis-Api”.
+
+![install](../../../assets/QuickDocker/run_script.png)
+  {: .mt-6 .ml-6}
+
+
+11.Once the installation is complete, the command prompt displays the installation is complete. The Docker Desktop displays all the installed containers.
+
+![install](../../../assets/QuickDocker/success.png)
+  {: .mt-6 .ml-6}
+
+
 ## Mail-Configuration-quick-installation
 For the email-configuration for “Quick-installation”, follow the steps below:- 
 
