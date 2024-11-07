@@ -81,7 +81,7 @@ The quick-installation option streamlines the setup process by saving time and e
  ![install](../../../assets/QuickDocker/redash.png)
   {: .mt-6 .ml-6} 
 
-8.To get the Redash API key, log in to [http://localhost:7000/](http://localhost:7000/),Choose Settings>>Account, and copy the API Key.
+8.To get the Redash API key, log in to [http://localhost:7001/](http://localhost:7001/),Choose Settings>>Account, and copy the API Key.
 
  ![install](../../../assets/QuickDocker/redashapikey.png)
   {: .mt-6 .ml-6} 
