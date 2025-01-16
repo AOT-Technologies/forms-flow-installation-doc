@@ -16,7 +16,7 @@ const config = {
   url: 'https://formsflow.ai',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/forms-flow-installation-eks',
+  baseUrl: '/forms-flow-installation-doc',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.

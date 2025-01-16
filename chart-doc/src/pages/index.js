@@ -32,5 +32,5 @@ export default function Home() {
   const { siteConfig } = useDocusaurusContext();
 
   // Redirect to /docs/intro when accessing the root page
-  return <Redirect to="/forms-flow-installation-eks/docs/next/intro" />;
+  return <Redirect to="/forms-flow-installation-doc/docs/next/intro" />;
 }
